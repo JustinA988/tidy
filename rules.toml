@@ -1,0 +1,17 @@
+# First matching rule wins. `ext` and `contains` are optional; both must match if given.
+# `contains` matches the filename (case-insensitive). `dest` is relative to --dest.
+
+[[rule]]
+ext = [".pdf"]
+contains = ["syllabus"]
+dest = "School/Syllabi"
+
+[[rule]]
+ext = [".pdf"]
+contains = ["invoice", "receipt"]
+dest = "Finance/Invoices"
+
+[[rule]]
+ext = [".png", ".jpg", ".jpeg"]
+contains = ["screenshot", "image"]
+dest = "Images/Screenshots"
