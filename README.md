@@ -62,3 +62,7 @@ See [rules.toml](rules.toml) for more examples.
 ```bash
 python -m unittest -v
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE).
